@@ -96,6 +96,23 @@ section h3 {
   font-size: 15px;
 }
 
+.participants-list.no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.delete-participant {
+  color: #c00;
+  cursor: pointer;
+  margin-left: 0.5em;
+  font-size: 1.1em;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #f33;
+}
+
 .participants-section.empty {
   background: #fffde7;
   border: 1px dashed #ffe082;
